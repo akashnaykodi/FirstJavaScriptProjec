@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gilroy';
+}
+html, body{
+
+    height: 100%;
+    width: 100%;
+}
+ body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+} 
+
+
+.card{
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 10%;
+   
+}
+
+.pic img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10%;
+
+   
+}
+.pic h1{
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+ .btn{
+    height: 50px;
+    width: 100%;
+
+    border-radius: 5px;
+    text-align:center;
+    
+}
+.btn button{
+    height: 80%;
+    width: 30%;
+    background-color: rgb(255, 166, 0);
+    border-radius: 10px;
+    margin: 10px 10px;
+    font-size: medium;
+    font-weight: bold;
+    border-color:yellow;
+}
